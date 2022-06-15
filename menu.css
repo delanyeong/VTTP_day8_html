@@ -1,0 +1,18 @@
+.menu>.menuitem {
+    margin-top:20px;
+    display:inline;
+    font-size: 1.2em;
+    
+}
+
+.menuitem {
+    margin-right: 10px;
+    background-color: 0px gray solid;
+    transition-property: background-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover{
+    background-color: 2px black solid;
+}
